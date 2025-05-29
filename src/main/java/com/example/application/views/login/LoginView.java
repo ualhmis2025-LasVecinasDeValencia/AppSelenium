@@ -55,7 +55,7 @@ public class LoginView extends LoginOverlay implements BeforeEnterObserver {
 
             setError(false);
             setOpened(false);
-            getUI().ifPresent(ui -> ui.navigate("main")); // Cambia "main" por tu ruta principal
+            getUI().ifPresent(ui -> ui.getPage().setLocation("/usuarios"));	
         });
     }
 

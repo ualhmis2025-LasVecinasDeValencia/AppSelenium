@@ -32,8 +32,9 @@ import java.util.Optional;
 /**
  * The main view is a top-level placeholder for other views.
  */
-@Layout
+
 @AnonymousAllowed
+
 public class MainLayout extends AppLayout {
 
     private H1 viewTitle;
